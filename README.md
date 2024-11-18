@@ -1,13 +1,14 @@
 # Setting Up Continuous Integration with Jenkins and GitHub
 ## Objective:
-This lab will guide you through the process of integrating GitHub with Jenkins, troubleshooting common issues faced during setup, and ensuring a smooth continuous integration workflow. You'll learn to set up Jenkins, connect it to a GitHub repository, and resolve authentication, branch configuration, and webhook challenges.
+​This lab's focus is on partially building a CICD pipeline by integrating Github and Jenkins. I have included steps to and troubleshooting common issues faced during setup, and ensuring a smooth continuous integration workflow. You'll learn to set up Jenkins, connect it to a GitHub repository, and resolve authentication, branch configuration challenges.
+
 
 ## Lab Overview
 - Part 1: Setting up the environment
 - Part 2: Pushing a simple project to GitHub
 - Part 3: Configuring Jenkins to build the project
 - Part 4: Troubleshooting common issues
-- Part 5: Review and Reflection
+- Part 5: Additional tasks for Bonus marks only. 
 
 
 ## Part 1: Setting Up the Environment
@@ -135,6 +136,5 @@ fatal: Could not read from remote repository.
 - Enhance the Pipeline:
 
     - Automatically triggers a build  after each push to the repo via the webhook in github
-    - Add test scripts and run them in the Jenkins build.
-    - Integrate tools like pytest or unittest for Python projects.
+    - Add test scripts and run them in the Jenkins build and integrate tools like pytest or unittest for Python projects.
     - Automate deployment steps (e.g., Docker or cloud deployment).
