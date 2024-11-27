@@ -87,6 +87,8 @@ Please show me the successful build on your Jenkins either during this lab or ne
     ```
     python app.py
     ```
+    - if you are on windows: you could do this 
+    Execute Windows batch command
 13. Save and Build:
     - Save the job and click Build Now to trigger the first build.
 
